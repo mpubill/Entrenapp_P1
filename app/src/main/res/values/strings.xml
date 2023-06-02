@@ -123,4 +123,5 @@
     <string name="boton_parte_inferior_gym">boton parte inferior gym</string>
     <string name="nivel_principiante">Nivel: Principiante</string>
     <string name="parte_inferior_gym">Parte Inferior (GYM)</string>
+    <string name="title_activity_ej5gym_experto">ej5gym_expertoActivity</string>
 </resources>
