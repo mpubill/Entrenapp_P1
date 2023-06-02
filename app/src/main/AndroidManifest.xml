@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EntrenApp_P1"
+        tools:targetApi="31">
+        <activity
+            android:name=".ej8casa_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej8casa_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej7casa_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej7casa_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej6casa_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej6casa_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej5casa_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej5casa_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej4casa_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej4casa_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej3gym_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej3casa_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej3casa_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej2gym_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej2gym_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej2casa_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej2casa_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1gym_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1gym_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1casa_principianteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1casa_expertoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ejercicios_inferior_casaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ejercicios_inferior_gymActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ejercicios_superior_casaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ejercicios_superior_gymActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".selecc_parte_gymActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".selecc_parte_casaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".menu_principalActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
