@@ -53,42 +53,47 @@
                 style="?android:attr/borderlessButtonStyle"
                 android:contentDescription="@string/descripcion_btn_sup_gym"/>
             <ImageButton
+                android:id="@+id/btn_cuadri_gym"
                 android:layout_column="2"
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/espalda"
+                android:src="@drawable/cuadriceps"
                 style="?android:attr/borderlessButtonStyle"
                 android:contentDescription="@string/descripcion_btn_sup_gym"/>
         </TableRow>
         <TableRow>
             <ImageButton
+                android:id="@+id/btn_femoral_gym"
                 android:layout_column="1"
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/pecho"
+                android:src="@drawable/femoral"
                 style="?android:attr/borderlessButtonStyle"
                 android:contentDescription="@string/descripcion_btn_sup_gym"/>
             <ImageButton
+                android:id="@+id/btn_gluteos_gym"
                 android:layout_column="2"
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/hombros"
+                android:src="@drawable/gluteos"
                 style="?android:attr/borderlessButtonStyle"
                 android:contentDescription="@string/descripcion_btn_sup_gym"/>
         </TableRow>
         <TableRow>
             <ImageButton
+                android:id="@+id/btn_pantorrilla_gym"
                 android:layout_column="1"
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/abdomen"
+                android:src="@drawable/pantorilla"
                 style="?android:attr/borderlessButtonStyle"
                 android:contentDescription="@string/descripcion_btn_sup_gym"/>
             <ImageButton
+                android:id="@+id/btn_estiramiento_gym"
                 android:layout_column="2"
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/biceps"
+                android:src="@drawable/estiraminto"
                 style="?android:attr/borderlessButtonStyle"
                 android:contentDescription="@string/descripcion_btn_sup_gym"/>
         </TableRow>
